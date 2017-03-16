@@ -28,6 +28,17 @@ connection.authenticate({ username: SFusername, password: SFpassword }, function
  var IntialIntract = function(Id)
 {
 	return new Promise(function(resolve, reject){
+		
+		var acc = connection.createSObject('Account');
+acc.set('Name', 'Spiffy Cleaners');
+acc.set('Phone', '800-555-2345');
+acc.set('SLA__c', 'Gold');
+
+connection.insert({ sobject: acc, oauth: connection.oauth }, function(err, resp){
+  if(!err) console.log('It worked!');
+});
+		
+		
 	connection.query({query: "SELECT Name, Amount, ContactId__r.Name, ContactId__r.MobilePhone FROM Opportunity where ContactId__r.Id ='0032800000uyn25AAA'" }, function(err, res) 
 			{
 	    if(err)
