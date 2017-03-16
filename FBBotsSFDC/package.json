@@ -21,7 +21,7 @@
 	  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/forceJai/Salesforce-Facebook-BOTS.git"
+    "url": "git+https://github.com/Nizam91/Salesforce-Facebook-BOTS.git"
   },
   "keywords": [
     "Salesforce.com",
@@ -38,7 +38,7 @@
   "author": "Jairaj Singh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/forceJai/Salesforce-Facebook-BOTS/issues"
+    "url": "https://github.com/Nizam91/Salesforce-Facebook-BOTS/issues"
   },
-  "homepage": "https://github.com/forceJai/Salesforce-Facebook-BOTS#readme"
+  "homepage": "https://github.com/Nizam91/Salesforce-Facebook-BOTS#readme"
 }
