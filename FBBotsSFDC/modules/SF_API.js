@@ -36,6 +36,7 @@ connection.authenticate({ username: SFusername, password: SFpassword }, function
 	    	reject("AnError Occured");}
 	    	    else { 
 	    	    	var contact = res;
+			    console.log('Authentication Access: ' + AccessToken);
 	    	    	console.log("QUERY RESULT");
 	    	    	console.log(contact);
 	   resolve(res.records);
