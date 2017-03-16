@@ -29,7 +29,7 @@ connection.authenticate({ username: SFusername, password: SFpassword }, function
 {
 	return new Promise(function(resolve, reject){
 		
-		var account = connection.createSObject('Account', { Name: 'Kevin Enterprises' });
+		var account = nForceAuth.createSObject('Account', { Name: 'Kevin Enterprises' });
 
   
   connection.upsert({ sobject: account }, function(err, resp) {
