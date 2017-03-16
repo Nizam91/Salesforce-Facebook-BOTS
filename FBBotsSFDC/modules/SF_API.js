@@ -31,7 +31,7 @@ connection.authenticate({ username: SFusername, password: SFpassword }, function
 		
 		var account = nForceAuth.createSObject('Account', { Name: 'Kevin Enterprises' });
 
-  
+  account.setExternalId('MyExtID__c', '231');
   connection.upsert({ sobject: account }, function(err, resp) {
     if(err) return console.error(err);
     console.log('Account Id: ' + account.getId()); // undefined when update
