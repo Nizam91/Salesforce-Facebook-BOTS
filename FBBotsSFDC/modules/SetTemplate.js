@@ -2,7 +2,7 @@
 var bodyParser = require('body-parser');
 var formatContact = function(contacts)
 {
-	var elements = [];
+	/*var elements = [];
 	console.log("----------------------->",contacts.get("Title"));
 	contacts.forEach(function(contact){
 		elements.push({
@@ -24,7 +24,7 @@ var formatContact = function(contacts)
 				"elements": elements
 			}
 		}
-	};
+	};*/
 	
 	///OLD GOLD START HERE
 	console.log("REACHED ST");
