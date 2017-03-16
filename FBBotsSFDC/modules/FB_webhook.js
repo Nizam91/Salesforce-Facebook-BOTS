@@ -31,7 +31,7 @@ function sInterpret(text, sender){
 	//if(text.match(/Hello/i) || text.match(/hello/i) || text.match(/Hi/i) || text.match(/hi/i)){
 	SF.IntialIntract().then(function(results)
 		{
-		console.log("BEFORE ST CALL");	
+		console.log("BEFORE ST CALL-------------------");	
 		var cMessage = ST.formatContact(results); 
 		botResponse({text:cMessage},sender);
 		});
