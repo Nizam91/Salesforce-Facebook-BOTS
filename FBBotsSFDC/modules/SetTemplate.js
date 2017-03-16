@@ -29,6 +29,10 @@ var formatContact = function(contacts)
 	///OLD GOLD START HERE
 	console.log("REACHED ST");
 	var responsetext = "Hello";
+	responsetext = "Hello Tom, \r\n  Price Concession waiting for you: \r\n 1. PC: 80131077 : Best Buy | PC Margin:68.50";
+	console.log(responsetext);
+
+	return responsetext;
 	console.log(contacts[0]);
 	var sName = contacts[0].get("ContactId__r").Name;
 	//console.log("NAME");
