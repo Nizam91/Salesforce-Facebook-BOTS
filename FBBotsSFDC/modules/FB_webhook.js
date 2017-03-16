@@ -8,6 +8,7 @@ function botResponse(message, recipient)
 {
 	console.log("message----",message);
 	console.log("process.env.FB_TOKEN----",process.env.FB_TOKEN);
+	console.log("recipient----",recipient);
 	request({
 		url: 'https://graph.facebook.com/v2.6/me/messages',
 		qs: {access_token:process.env.FB_TOKEN},
