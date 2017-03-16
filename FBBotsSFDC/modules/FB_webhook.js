@@ -6,7 +6,8 @@ var ST = require('./SetTemplate');
 exports.sf = SF;
 function botResponse(message, recipient)
 {
-	console.log(message);
+	console.log("message----",message);
+	
 	request({
 		url: 'https://graph.facebook.com/v2.6/me/messages',
 		qs: {access_token:process.env.FB_TOKEN},
