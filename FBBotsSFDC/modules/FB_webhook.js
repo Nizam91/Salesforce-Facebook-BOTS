@@ -64,7 +64,7 @@ exports.webhookPost = function(req,res)
 		if(event.message && event.message.text){
 			console.log("FACEBOOK ID IS1234e:" +sender);
 			//botResponse({text:'Hello I am AWESOME BOT to help you'}, sender);
-			sInterpret({text:event.message.text}, "2245133069045083");//sender);
+			sInterpret({text:event.message.text},sender);
 		}
 	}
 	res.sendStatus(200);
