@@ -3,7 +3,7 @@ var bodyParser = require('body-parser');
 var formatContact = function(contacts)
 {
 	var elements = [];
-	console.log(contacts.get("Title"));
+	console.log("----------------------->",contacts.get("Title"));
 	contacts.forEach(function(contact){
 		elements.push({
 			title: contact.get("Name"),
