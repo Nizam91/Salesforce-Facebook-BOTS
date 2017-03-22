@@ -51,7 +51,7 @@ request.end();*/
 		//require("openurl").open("https://awsqualityinteg-developer-edition.ap2.force.com/");
 		
 		
-	connection.query({query: "SELECT Name, Amount, ContactId__r.Name, ContactId__r.MobilePhone FROM Opportunity where ContactId__r.Id ='0032800000uyn25AAA'" }, function(err, res) 
+	connection.query({query: "SELECT Name, Amount, ContactId__r.Name, ContactId__r.MobilePhone FROM Opportunity where ContactId__r.Id ='0032800000v0pRG'" }, function(err, res) 
 			{
 	    if(err)
 	    { console.error(err);
