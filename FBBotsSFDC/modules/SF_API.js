@@ -65,7 +65,7 @@ request.end();*/
 	   }
 	   });
 	});
-	connetSF;
+	connetSF();
 };
 
 var connetSF = function(){
