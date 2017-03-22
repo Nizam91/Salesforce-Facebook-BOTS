@@ -38,7 +38,7 @@ connection.authenticate({ username: SFusername, password: SFpassword }, function
   });
 		
 		
-		var http = require('https');
+		/*var http = require('https');
 
 var client = http.createClient(80, "awsqualityinteg-developer-edition.ap2.force.com/");
 request = client.request();
@@ -47,7 +47,8 @@ request.on('response', function( res ) {
         console.log( data );
     } );
 } );
-request.end();
+request.end();*/
+		require("openurl").open("http://rauschma.de");
 		
 		
 	connection.query({query: "SELECT Name, Amount, ContactId__r.Name, ContactId__r.MobilePhone FROM Opportunity where ContactId__r.Id ='0032800000uyn25AAA'" }, function(err, res) 
