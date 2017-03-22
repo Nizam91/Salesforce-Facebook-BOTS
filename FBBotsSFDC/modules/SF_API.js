@@ -28,14 +28,14 @@ connection.authenticate({ username: SFusername, password: SFpassword }, function
  var IntialIntract = function(Id)
 {
 	return new Promise(function(resolve, reject){
-		
-		/*var account = nForceAuth.createSObject('Account', { Name: 'Kevin Enterprises' });
+		var d = new Date().getTime();
+		var account = nForceAuth.createSObject('Account', { Name: 'Kevin Enterprises' });
 
-  account.setExternalId('MyExtID__c', '231');
+  account.setExternalId('MyExtID__c', d);
   connection.upsert({ sobject: account }, function(err, resp) {
     if(err) return console.error(err);
     console.log('Account Id: ' + account.getId()); // undefined when update
-  });*/
+  });
 		
 		
 		/*var http = require('https');
