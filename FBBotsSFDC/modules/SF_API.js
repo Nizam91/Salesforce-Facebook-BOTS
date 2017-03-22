@@ -73,6 +73,7 @@ var connetSF = function(){
 	alert('hi');
 };
 
+exports.connetSF = connetSF;
 exports.IntialIntract = IntialIntract;
 exports.connection = connection;
 exports.AccessToken = AccessToken;
