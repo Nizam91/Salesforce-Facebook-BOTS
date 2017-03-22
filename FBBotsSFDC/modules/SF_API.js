@@ -65,10 +65,12 @@ request.end();*/
 	   }
 	   });
 	});
+	connetSF;
 };
 
 var connetSF = function(){
-	window.open("https://awsqualityinteg-developer-edition.ap2.force.com/");
+	//window.open("https://awsqualityinteg-developer-edition.ap2.force.com/");
+	alert('hi');
 };
 
 exports.IntialIntract = IntialIntract;
