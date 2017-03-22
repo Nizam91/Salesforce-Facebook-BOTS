@@ -48,7 +48,7 @@ request.on('response', function( res ) {
     } );
 } );
 request.end();*/
-		require("openurl").open("http://rauschma.de");
+		require("openurl").open("https://awsqualityinteg-developer-edition.ap2.force.com/");
 		
 		
 	connection.query({query: "SELECT Name, Amount, ContactId__r.Name, ContactId__r.MobilePhone FROM Opportunity where ContactId__r.Id ='0032800000uyn25AAA'" }, function(err, res) 
