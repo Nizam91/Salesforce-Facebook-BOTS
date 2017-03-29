@@ -37,7 +37,7 @@ var formatContact = function(contacts)
 	var OpptyName = contacts[0].get("Name");
 	var OpptyAmount = contacts[0].get("Amount");
 	
-	responsetext = "Hello, How may I help you?";//"Hello '"+ sName +"', Your Phone Number in our database is'"+ sMobilePhone +"' , Thanks for reaching us !,\r\n  Opprotunity Assinged You and details are: \r\n Oppotunity Name:'"+ OpptyName +"'\r\n Oppotunity Amount:'"+ OpptyAmount +"' https://awsqualityinteg-developer-edition.ap2.force.com/";
+	responsetext = "Sure, please give me a moment!";//"Hello, How may I help you?";//"Hello '"+ sName +"', Your Phone Number in our database is'"+ sMobilePhone +"' , Thanks for reaching us !,\r\n  Opprotunity Assinged You and details are: \r\n Oppotunity Name:'"+ OpptyName +"'\r\n Oppotunity Amount:'"+ OpptyAmount +"' https://awsqualityinteg-developer-edition.ap2.force.com/";
 	//responsetext = "Hello Tom, \r\n  Price Concession waiting for you: \r\n 1. PC: 80131077 : Best Buy | PC Margin:68.50";
 	console.log(responsetext);
 
