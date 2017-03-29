@@ -74,7 +74,7 @@ var connetSF = function(){
 };
 
 exports.connetSF = connetSF;
-//exports.IntialIntract = IntialIntract;
+exports.IntialIntract = IntialIntract;
 exports.connection = connection;
 exports.AccessToken = AccessToken;
 
